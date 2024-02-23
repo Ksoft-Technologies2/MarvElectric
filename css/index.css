@@ -3,6 +3,10 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+#top-header{
+    position: sticky !important;
+    top: 0 !important;
+}
 .heading{
     background-color: orange;
     height: 8vh;
@@ -92,6 +96,26 @@ body{
     font-size: 35px;
     color: orange;
 }
+.questionDivBox{
+    background-color: #fff;
+    height: 20vh;
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.4);
+}
+.box{
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.4);
+}
+.questionDivBox > i{
+    font-size: 25px;
+    color: orange;
+}
+.secondBtn > i{
+    font-size: 20px;
+    color: orange;
+}
 .counters{
     margin-top: 3rem;
     padding: 3em 2em;
@@ -146,6 +170,56 @@ body{
         transform: translateX(-50%);
     }
    }
+   .freequoteDiv{
+    background-color: #00A0E3;
+    padding: 1.5rem;
+    margin-top: 3rem;
+   }
+   .freequoteDiv > h1{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+   }
+   .freequoteDiv > h5{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: left;
+   }
+   .firstBtn{
+    text-decoration: none;
+    background-color: #fff;
+    color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 9vh;
+    width: 15% !important;
+    padding-top: 0.7rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-right: 1rem;
+   }
+   .firstBtn:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+   }
+   .secondBtn{
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 15% !important;
+    text-align: center;
+    padding-top: 0.7rem;
+    border-radius: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+   }
+   .secondBtn:hover{
+    background-color: #fff;
+    color: orange;
+   }
    footer{
     background-color: #333645;
     padding: 1rem;
@@ -170,7 +244,7 @@ body{
    }
    .lastDiv{
     background-color: #333;
-    height: 14vh;
+    height: 15vh;
    }
    .lastDiv > h5 > a{
     text-decoration: none;
