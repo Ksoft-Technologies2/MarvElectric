@@ -3,10 +3,6 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-#top-header{
-    position: sticky !important;
-    top: 0 !important;
-}
 .heading{
     background-color: orange;
     height: 8vh;

@@ -1,0 +1,10 @@
+.FormDiv {
+    padding: 2rem;
+}
+.FormDiv > input{
+    margin-bottom: 1.5rem;
+}
+.FormDiv > h5{
+    color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
